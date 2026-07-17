@@ -12,19 +12,21 @@ A comparative study of tabular, deep learning, and graph-based anomaly detection
 
 ## Overview
 
-Security Information and Event Management (SIEM) systems generate large volumes of event logs that require automated anomaly detection to identify potential security threats. This project presents a comparative analysis of traditional machine learning, deep learning, and graph-based techniques for anomaly detection on SIEM data.
+Security Information and Event Management (SIEM) systems generate large volumes of network and security logs that require automated anomaly detection to identify potential cyber threats. This project presents a comparative analysis of traditional machine learning, deep learning, and graph-based anomaly detection techniques using the **CICIDS2017** dataset for SIEM-inspired anomaly detection.
 
-The study investigates how different modeling approaches perform on the same dataset while highlighting their strengths and limitations for cybersecurity applications.
+The study evaluates the effectiveness of different approaches in detecting anomalous network traffic and highlights their strengths and limitations using standard classification metrics and visual analysis.
 
 ---
 
 ## Dataset
 
-**Dataset:** SIEM Security Event Data
+**Dataset:** `CICIDS2017 (Canadian Institute for Cybersecurity Intrusion Detection System 2017)`
 
-**Task:** Binary Anomaly Detection
+**Task:** `Binary Anomaly Detection`
 
-The dataset consists of security event logs containing both normal and anomalous events. Data preprocessing, feature engineering, encoding, scaling, and train-test splitting were performed prior to model development.
+The project uses the **CICIDS2017** dataset, a widely used benchmark for intrusion detection and cybersecurity research. The dataset contains network traffic records representing both benign activity and multiple categories of cyber attacks.
+
+For this study, the data was preprocessed through feature selection, label encoding, normalization, and train-test splitting before applying anomaly detection models.
 
 ---
 
